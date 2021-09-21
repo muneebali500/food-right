@@ -1,0 +1,41 @@
+.expert {
+  &__card-box {
+    @media (min-width: 650px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1rem;
+    }
+
+    @media (min-width: 900px) {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 1rem;
+    }
+
+    @media (min-width: 1150px) {
+      grid-column-gap: 2rem;
+    }
+  }
+
+  &__card {
+    box-shadow: 0 1rem 3rem rgba(#000, 0.2);
+    margin-bottom: 2rem;
+
+    &-photo {
+      height: 40vw;
+
+      @media (min-width: 900px) {
+        height: 40vh;
+      }
+    }
+  }
+
+  &__name {
+    font-size: 1.7rem;
+    padding: 1.5rem 1rem;
+
+    @media (min-width: 900px) {
+      font-size: 1.2rem;
+    }
+  }
+}
