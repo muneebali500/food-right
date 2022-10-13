@@ -1,5 +1,5 @@
 .header {
-  height: 100vh;
+  height: 40rem;
   background-image: url(../images/bg.jpg);
   background-size: cover;
   background-position: center;
@@ -7,11 +7,15 @@
   color: var(--color-white);
 
   position: relative;
+
+  @media only screen and (min-width: 1300px) {
+    height: 100vh;
+  }
 }
 
 .logo {
   position: absolute;
-  top: 5%;
+  top: 3rem;
   left: 8%;
   font-size: 3rem;
   font-family: "Tangerine", serif;
@@ -20,8 +24,9 @@
 
 .title__content {
   @include content-center;
-  width: 70%;
+  width: 73%;
   text-align: center;
+  margin-top: 3rem;
 
   @media only screen and (min-width: 900px) {
     position: absolute;

@@ -32,11 +32,11 @@ html {
 }
 
 section {
-  padding: 6rem 8rem;
+  padding: 3rem 4rem;
 }
-@media (min-width: 650px) {
+@media (min-width: 370px) {
   section {
-    padding: 6rem 6rem;
+    padding: 3rem 8rem;
   }
 }
 @media (min-width: 900px) {
@@ -50,7 +50,7 @@ img {
   height: 100%;
   width: 100%;
   -o-object-fit: 100%;
-  object-fit: 100%;
+     object-fit: 100%;
 }
 
 a {
@@ -223,7 +223,7 @@ ol {
   color: var(--color-white);
   position: relative;
 }
-@media only screen and (min-width: 950px) {
+@media only screen and (min-width: 1300px) {
   .header {
     height: 100vh;
   }
@@ -243,7 +243,7 @@ ol {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 70%;
+  width: 73%;
   text-align: center;
   margin-top: 3rem;
 }
@@ -344,8 +344,7 @@ ol {
 .nav__item {
   list-style: none;
 }
-.nav__link:link,
-.nav__link:visited {
+.nav__link:link, .nav__link:visited {
   display: inline-block;
   font-size: 2.5rem;
   text-decoration: none;
@@ -507,4 +506,4 @@ ol {
 .section-caption {
   font-size: 1.5rem;
   margin-bottom: 4rem;
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

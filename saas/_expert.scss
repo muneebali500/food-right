@@ -22,9 +22,9 @@
     margin-bottom: 2rem;
 
     &-photo {
-      height: 40vw;
+      height: 25rem;
 
-      @media (min-width: 900px) {
+      @media (min-width: 950px) {
         height: 40vh;
       }
     }
